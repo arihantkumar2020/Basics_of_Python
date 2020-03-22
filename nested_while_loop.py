@@ -1,0 +1,9 @@
+i = 5
+j = 1
+while i>=1:
+    print("\nArihant", i, end=' ')
+    i-=1
+    j=1
+    while j<=4:
+        print("Rocks", end=' ')
+        j+=1
