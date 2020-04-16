@@ -1,0 +1,18 @@
+Answer is both
+
+Compiler converts source into target language, i.e. high level language to machine language,
+almost it can do any conversion like it can also convert from one high level language to another high level language
+
+Interpreter converts into target code by reading source code, line by line
+
+
+conversion process in python = source code <compiler> byte code <interpreter(by python virtual machine)> machine language
+
+
+Reason
+-concept of bytecode is used for ,portability i.e. write once run anywhere
+-compiling code on one machine may not work on another machine because of different cpu architecture
+- to solve this problem we use virtual machine
+-in virtual machine we run bytecode and that will be converted into machine code
+-so, virtual machine software or VM software is required to run python code
+-Virtual machine for python = PVM(Python Virtual Machine)
