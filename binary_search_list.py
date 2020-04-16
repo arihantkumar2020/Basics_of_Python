@@ -14,9 +14,9 @@ def search(list, n):
             return True
         else:
             if  list[mid] < n:
-                lower_bound = mid
+                lower_bound = mid+1
             else:
-                upper_bound = mid
+                upper_bound = mid-1
     return False
 
 
