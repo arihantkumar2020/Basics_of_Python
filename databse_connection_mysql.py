@@ -1,5 +1,6 @@
-#connector is needed to db or dbms to python
+#connector is needed to connect db or dbms to python
 #ex : mysql connector to work with mysql dbms
+#pip install mysql-connector-python
 
 import mysql.connector
 
@@ -8,11 +9,11 @@ mydb = mysql.connector.connect(host = 'localhost', user = 'arihant', passwd = 'i
 #connect() gives database connection
 
 mycursor = mydb.cursor()
-#cursor references to the databases
+#cursor() references to the database
 
 mycursor.execute('select * from student;')
 
-result = mycursor.fetchall()    #fetchone can be used as well
+result = mycursor.fetchall()    #fetchone() can be used as well
 
 mydb.close()
 
